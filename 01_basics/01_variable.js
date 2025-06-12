@@ -7,3 +7,4 @@ accountPassword = "27092005"
 accountCity = "Dhanbad"
 console.log(accountEmail);
 console.table([accountId,accountEmail,accountPassword,accountCity]);
+
