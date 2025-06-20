@@ -34,3 +34,12 @@ console.log(Object.entries({name:"Yashasvi"}));
 console.log(Object.keys({name:"Yashasvi"}));
 //TO GET VALUES
 console.log(Object.values({name:"Yashasvi"}));
+let arr = [10,20,30];
+arr.map((number)=>{
+    console.log(number+1);
+})
+let arr = [10,20,30];
+arr.map((number,index)=>{
+    console.log(index);
+    console.log(number);
+})

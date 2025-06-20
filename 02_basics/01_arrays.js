@@ -14,3 +14,14 @@ arr.shift();
 console.log(arr);
 console.log(arr.includes(6));
 console.log(arr.indexOf(9));
+
+//love babbar:-
+let obj ={
+    Name:"Yashasvi",
+    age:20,
+    weight: 70,
+    height:"5ft 7in",
+    greet:function(){
+        console.log("hi");
+    }
+}
