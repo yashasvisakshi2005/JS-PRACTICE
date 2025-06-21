@@ -43,3 +43,21 @@ arr.map((number,index)=>{
     console.log(index);
     console.log(number);
 })
+class human{
+    age=13;
+    wt=72;
+    ht=100;
+    walking(){
+        console.log("I am walking");
+    }
+    running(){
+        console.log("I am running");
+    }
+}
+
+let obj = new human();
+console.log(obj.age);
+function sayname(fname='shourya',lname=fname.toUpperCase()){
+    console.log("my name is: "+ fname + " "+lname);
+}
+sayname();
